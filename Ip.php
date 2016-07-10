@@ -8,7 +8,22 @@
 
 //**for($i=0;$i<=10;$i+=1)
 //*{
-   echo  'exec("runas /user:Administrador C:/xampp/htdocs/bats/ip_dynamic.bat")';
+
+ exec("start runas /user:Administrador c:/bats/ipdhcp.bat");
+
+//*for($i=0;$i<=9;$i++){
+
+  //*  echo "\n"."<br>";
+
+    //*echo ($i)."\n"."<br>";
+
+    //*if ($i > 5){
+
+       //*  echo rand ($i,100);
+     //*}
+
+
+//*}
 
 //*}
 
